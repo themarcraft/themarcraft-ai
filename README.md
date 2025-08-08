@@ -14,5 +14,5 @@ public class Usage {
 ```
 Output:
 ```
-Artificial Intelligence (AI) refers to the ability of a computer or machine to mimic human cognitive functions like learning, problem-solving, decision-making, and perception. It encompasses a broad range of techniques, from rule-based systems to sophisticated machine learning algorithms, that allow machines to process information, identify patterns, and generate outputs that resemble intelligent behavior.At its core, AI aims to create systems that can perform tasks that typically require human intelligence. This can involve understanding natural language, recognizing images, predicting future outcomes, or even autonomously operating complex systems. The ultimate goal is to develop AI that can adapt and improve its performance over time, much like humans do through experience.
+Artificial Intelligence (AI) refers to the ability...
 ```
