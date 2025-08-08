@@ -90,19 +90,20 @@ public class AI {
      * @return Only the Text Message String
      */
     private static String extractText(String json) {
+
+        System.out.println(json);
+
+
         String key = "{\"candidates\": [{\"content\": {\"parts\": [{\"text\": \"";
         int start = json.indexOf(key);
         if (start == -1) return null;
 
         start += key.length();
-        int end = json.indexOf("\"", start);
+        int end = json.indexOf("\\n\"}],\"role\": \"model\"},", start) -4;
         if (end == -1) return null;
 
-        return json.substring(start, end);
-    }
+        json = json.replace("\\n*", "").replace("**", "").replace("\\n", "");
 
-    public static void main(String[] args) {
-        AI test = new AI("AIzaSyAG_RILmYHA1yiD1klkQ3xrAXdmMNYOQ0c");
-        System.out.println(test.newQuery("Ich mag Zuege"));
+        return json.substring(start, end);
     }
 }
