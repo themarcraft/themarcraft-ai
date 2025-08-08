@@ -7,7 +7,7 @@ import de.themarcraft.ai.AI;
 
 public class Usage {
     public static void main(String[] args) {
-        AI test = new AI("youAiToken");
+        AI test = new AI("yourAiToken");
         System.out.println(test.newQuery("What is AI? In two short Paragraphs"));
     }
 }
