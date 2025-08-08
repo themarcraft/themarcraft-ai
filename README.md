@@ -1,7 +1,7 @@
 # themarcraft AI
 Do you want to implement AI in your Project, but it is just to hard?
 ## Presenting themarcraft AI
-A simple way to use AI using a Gemini AI token with simple Syntax.
+A simple way using a Library to use AI using a Gemini AI token with simple Syntax.
 ```Java
 import de.themarcraft.ai.AI;
 
