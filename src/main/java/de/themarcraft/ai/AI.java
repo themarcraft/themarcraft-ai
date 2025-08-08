@@ -102,7 +102,7 @@ public class AI {
     }
 
     public static void main(String[] args) {
-        AI test = new AI("AIzaSyAG_RILmYHA1yiD1klkQ3xrAXdmMNYOQ0c");
+        AI test = new AI("token");
         System.out.println(test.newQuery("Ich mag Zuege"));
     }
 }
